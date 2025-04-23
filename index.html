@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Landing Page</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <script src="https://kit.fontawesome.com/a2e0f1d9a2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <header class="bg-dark text-white p-3">
+    <nav class="container d-flex justify-content-between align-items-center">
+      <h1 class="m-0">Mi Sitio</h1>
+      <ul class="nav">
+        <li class="nav-item"><a class="nav-link text-white" href="#intro">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#services">Servicios</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#testimonios">Testimonios</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#contacto">Contacto</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="https://example.com" target="_blank">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Introducción -->
+    <section id="intro" class="text-center p-5 bg-light">
+      <div class="container">
+        <h2 class="mb-3">Bienvenido a Nuestro Sitio</h2>
+        <p class="lead">Ofrecemos soluciones creativas para tus necesidades digitales.</p>
+        <img src="img/intro.jpg" alt="Imagen introductoria" class="img-fluid mt-3 rounded" />
+      </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="services" class="p-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Nuestros Servicios</h2>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <i class="fas fa-laptop-code fa-3x mb-3"></i>
+            <h4>Desarrollo Web</h4>
+            <p>Diseño y desarrollo de sitios modernos y eficientes.</p>
+          </div>
+          <div class="col-md-4">
+            <i class="fas fa-mobile-alt fa-3x mb-3"></i>
+            <h4>Apps Móviles</h4>
+            <p>Aplicaciones móviles optimizadas para iOS y Android.</p>
+          </div>
+          <div class="col-md-4">
+            <i class="fas fa-search-dollar fa-3x mb-3"></i>
+            <h4>Marketing Digital</h4>
+            <p>Estrategias efectivas para aumentar tu presencia en línea.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="bg-light p-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Testimonios</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <blockquote class="blockquote">
+              <p>"Gracias a ellos, nuestro sitio web se ve increíble."</p>
+              <footer class="blockquote-footer">Cliente Satisfecho</footer>
+            </blockquote>
+          </div>
+          <div class="col-md-6">
+            <blockquote class="blockquote">
+              <p>"Profesionalismo y eficiencia, ¡muy recomendados!"</p>
+              <footer class="blockquote-footer">Empresa Feliz</footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="p-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Contáctanos</h2>
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" required />
+          </div>
+          <div class="col-md-6">
+            <label for="email" class="form-label">Correo Electrónico</label>
+            <input type="email" class="form-control" id="email" required />
+          </div>
+          <div class="col-12">
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="mensaje" rows="4" required></textarea>
+          </div>
+          <div class="col-12 text-center">
+            <button type="submit" class="btn btn-primary mt-3">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-white text-center p-3">
+    <p>© 2025 Mi Sitio. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
