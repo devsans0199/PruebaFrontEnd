@@ -4,123 +4,175 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Especialista Gastrointestinal</title>
-  <link rel="stylesheet" href="styles.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="hero">
-    <div class="hero-content">
-      <p class="contact">📞 +52 55 5555 0000 | ✆ +52 55 6520 0007</p>
+  <header class="hero text-white text-center py-5">
+    <div class="container">
+      <p class="contact mb-3">📞 +52 55 5555 0000 | ✆ +52 55 6520 0007</p>
       <h1>Especialista Gastrointestinal</h1>
       <p>Recupera tu Salud Digestiva con el Mejor Especialista Gastrointestinal en CDMX</p>
       <h2>Dr. Fernando Amador</h2>
       <p>Diagnóstico preciso y tratamientos avanzados para aliviar problemas digestivos.</p>
-      <div class="reviews">
+      <div class="reviews mb-3">
         ⭐⭐⭐⭐⭐ <span>+100 Reseñas</span>
       </div>
-      <a href="#" class="cta-green">📩 Envíale mensaje para pedir informes</a>
+      <a href="#" class="btn btn-success btn-lg">📩 Envíale mensaje para pedir informes</a>
     </div>
   </header>
 
-  <section class="features">
-    <div class="feature-box">
-      <img src="images/icono.webp" alt="Icono Atención">
-      <p>Atención Personalizada</p>
-    </div>
-    <div class="feature-box">
-      <img src="images/servicio.webp" alt="Icono Experiencia">
-      <p>Experiencia en Cirugía Compleja</p>
-    </div>
-    <div class="feature-box">
-      <img src="images/logo.webp" alt="Icono Seguridad">
-      <p>Seguridad y Transparencia</p>
-    </div>
-  </section>
-
-  <section class="info">
-    <h2>¿Qué es un Especialista Gastrointestinal?</h2>
-    <div class="columns">
-      <img src="images/consultamedica.jpg" alt="Consulta médica">
-      <img src="images/modelo.jpg" alt="Modelo de estómago">
+  <section class="features py-5 bg-light">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-4">
+          <i class="fas fa-user-md fa-3x mb-3"></i>
+          <p>Atención Personalizada</p>
+        </div>
+        <div class="col-md-4">
+          <i class="fas fa-cogs fa-3x mb-3"></i>
+          <p>Experiencia en Cirugía Compleja</p>
+        </div>
+        <div class="col-md-4">
+          <i class="fas fa-shield-alt fa-3x mb-3"></i>
+          <p>Seguridad y Transparencia</p>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section class="consultar">
-    <h2>¿Cuándo Debes Consultar a un Especialista Gastrointestinal?</h2>
-    <ul>
-      <li>Dolor abdominal</li>
-      <li>Reflujo frecuente</li>
-      <li>Gases, náuseas o diarrea crónica</li>
-      <li>Pérdida de peso sin razón</li>
-      <li>Sangrado digestivo</li>
-    </ul>
-    <div class="ubicacion">
-      <p>Hospital San Ángel Inn Sur</p>
-      <a class="cta-blue" href="#">📱 Agenda tu cita vía WhatsApp</a>
+  <section class="info py-5">
+    <div class="container text-center">
+      <h2>¿Qué es un Especialista Gastrointestinal?</h2>
+      <div class="row mt-4">
+        <div class="col-md-6">
+          <img src="images/consultamedica.jpg" alt="Consulta médica" class="img-fluid rounded">
+        </div>
+        <div class="col-md-6">
+          <img src="images/modelo.jpg" alt="Modelo de estómago" class="img-fluid rounded">
+        </div>
+      </div>
     </div>
   </section>
 
-  <section class="testimonios">
-    <h2>Pacientes que Recuperaron su Salud Digestiva</h2>
-    <img src="images/review.jpg" alt="Google reviews">
-    <div class="testimonios-grid">
-      <div class="testimonio">⭐⭐⭐⭐⭐ Excelente atención – Natalia R.</div>
-      <div class="testimonio">⭐⭐⭐⭐⭐ Muy profesional – Luis R.</div>
-      <div class="testimonio">⭐⭐⭐⭐⭐ Diagnóstico preciso – Miguel C.</div>
-      <div class="testimonio">⭐⭐⭐⭐⭐ Altamente recomendado – Ana V.</div>
+  <section class="consultar py-5 bg-light">
+    <div class="container text-center">
+      <h2>¿Cuándo Debes Consultar a un Especialista Gastrointestinal?</h2>
+      <ul class="list-unstyled mt-4">
+        <li>Dolor abdominal</li>
+        <li>Reflujo frecuente</li>
+        <li>Gases, náuseas o diarrea crónica</li>
+        <li>Pérdida de peso sin razón</li>
+        <li>Sangrado digestivo</li>
+      </ul>
+      <div class="ubicacion bg-primary text-white p-4 rounded mt-4">
+        <p>Hospital San Ángel Inn Sur</p>
+        <a href="#" class="btn btn-info">📱 Agenda tu cita vía WhatsApp</a>
+      </div>
     </div>
   </section>
 
-  <section class="soluciones">
-    <h2>¿Cómo Puede un Especialista Gastrointestinal Solucionar tu Problema?</h2>
-    <div class="cards">
-      <div class="card">Diagnóstico Integral</div>
-      <div class="card">Tratamientos Personalizados</div>
-      <div class="card">Seguimiento Post-tratamiento</div>
+  <section class="testimonios py-5 bg-primary text-white">
+    <div class="container text-center">
+      <h2>Pacientes que Recuperaron su Salud Digestiva</h2>
+      <img src="images/review.jpg" alt="Google reviews" class="img-fluid rounded mb-4">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="testimonial bg-white text-primary p-3 rounded">
+            ⭐⭐⭐⭐⭐ Excelente atención – Natalia R.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="testimonial bg-white text-primary p-3 rounded">
+            ⭐⭐⭐⭐⭐ Muy profesional – Luis R.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="testimonial bg-white text-primary p-3 rounded">
+            ⭐⭐⭐⭐⭐ Diagnóstico preciso – Miguel C.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="testimonial bg-white text-primary p-3 rounded">
+            ⭐⭐⭐⭐⭐ Altamente recomendado – Ana V.
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section class="beneficios">
-    <h2>Beneficios de un Tratamiento Especializado</h2>
-  </section>
-
-  <section class="consulta">
-    <h2>¿Qué Incluye una Consulta con el Dr. Hernández?</h2>
-    <ul>
-      <li>✅ Evaluación Médica</li>
-      <li>✅ Diagnóstico Personalizado</li>
-      <li>✅ Plan de Tratamiento</li>
-    </ul>
-    <img src="images/conmed.jpg" alt="Consulta médica">
-  </section>
-
-  <section class="perfil">
-    <img src="images/doctor.webp" alt="Dr. Fernando Amador">
-    <h3>Dr. Fernando Amador</h3>
-    <p>Especialista en Gastroenterología</p>
-  </section>
-
-  <section class="mapa">
-    <h2>Agenda Tu Consulta con el Especialista en Gastrointestinal en CDMX</h2>
-    <div class="cta">
-      <a href="#" class="cta-green">📞 55-4209-6997</a>
-      <a href="#" class="cta-blue">📞 55-63-8320-6997</a>
-    </div>
-    <p>Ciudad de México</p>
-    <div class="maps">
-      <!-- Enlace a Google Maps con ubicación específica -->
-      <a href="https://www.google.com/maps?q=19.4326,-99.1332" target="_blank">
-        <img src="images/mapa.jpg" alt="Mapa 1">
-      </a>
-      
-      <a href="https://www.google.com/maps?q=40.7128,-74.0060" target="_blank">
-        <img src="images/mapa2.jpg" alt="Mapa 2">
-      </a>
+  <section class="soluciones py-5">
+    <div class="container text-center">
+      <h2>¿Cómo Puede un Especialista Gastrointestinal Solucionar tu Problema?</h2>
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <div class="card p-4">
+            <p>Diagnóstico Integral</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-4">
+            <p>Tratamientos Personalizados</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-4">
+            <p>Seguimiento Post-tratamiento</p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
-  <footer>
-    <p>&copy; 2025. Dr. Fernando Amador | <a href="#">¿Tienes dudas? Escríbenos vía WhatsApp</a></p>
+  <section class="consulta py-5">
+    <div class="container text-center">
+      <h2>¿Qué Incluye una Consulta con el Dr. Hernández?</h2>
+      <ul class="list-unstyled">
+        <li>✅ Evaluación Médica</li>
+        <li>✅ Diagnóstico Personalizado</li>
+        <li>✅ Plan de Tratamiento</li>
+      </ul>
+      <img src="images/conmed.jpg" alt="Consulta médica" class="img-fluid rounded mt-4">
+    </div>
+  </section>
+
+  <section class="perfil py-5 text-center">
+    <div class="container">
+      <img src="images/doctor.webp" alt="Dr. Fernando Amador" class="img-fluid rounded-circle mb-3" style="width: 150px;">
+      <h3>Dr. Fernando Amador</h3>
+      <p>Especialista en Gastroenterología</p>
+    </div>
+  </section>
+
+  <section class="mapa py-5 bg-light text-center">
+    <div class="container">
+      <h2>Agenda Tu Consulta con el Especialista en Gastrointestinal en CDMX</h2>
+      <div class="cta mb-4">
+        <a href="#" class="btn btn-success">📞 55-4209-6997</a>
+        <a href="#" class="btn btn-info">📞 55-63-8320-6997</a>
+      </div>
+      <p>Ciudad de México</p>
+      <div class="maps d-flex justify-content-center gap-3">
+        <a href="https://www.google.com/maps?q=19.4326,-99.1332" target="_blank">
+          <img src="images/mapa.jpg" alt="Mapa 1" class="img-fluid rounded">
+        </a>
+        <a href="https://www.google.com/maps?q=40.7128,-74.0060" target="_blank">
+          <img src="images/mapa2.jpg" alt="Mapa 2" class="img-fluid rounded">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2025. Dr. Fernando Amador | <a href="#" class="text-success">¿Tienes dudas? Escríbenos vía WhatsApp</a></p>
   </footer>
+
+  <!-- Bootstrap JS, Popper.js -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
