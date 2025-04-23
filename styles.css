@@ -179,3 +179,8 @@ ul li {
   margin-bottom: 10px;
   text-align: left;
 }
+
+img {
+  width: 100%; /* Se ajusta al ancho del contenedor */
+  height: auto;
+}
