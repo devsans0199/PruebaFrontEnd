@@ -1,8 +1,5 @@
 # PruebaFrontEnd
-<<<<<<< HEAD
 
-=======
->>>>>>> a4e3f13801d095d1327bcbbe6b1c16b991d5168e
 # Landing Page con Bootstrap y Font Awesome
 
 ## Descripción
